@@ -111,7 +111,7 @@ font-size: 14px;
         
         
         
-        <!-- submit prestasi -->
+        <!-- submit prestasi berfungsi untuk menyimpan data yang telah di input sebelumnya-->
         <button type="submit" class="btn btn-primary">Simpan</button>
     </form>
 </body>
