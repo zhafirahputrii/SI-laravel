@@ -31,7 +31,7 @@ tr:nth-child (even){
 tr:hover{
     background-color:#ddd;
 }
-
+<!--Kode diatas merupakan style tampilan untuk halaman data prestasi-->
 </style>
 </head>
 <body>
@@ -39,14 +39,14 @@ tr:hover{
     <!--Bagian Navigasi-->
     <a href="#" class="logo">SI Prestasi</a>
     <div class="navbar"> 
-
+<!--Membuat sebuah navigasi yang terdapat tombol Berita, Prestasi dan Home-->
              <a href="/berita">Berita</a>
              <a href="/dataprestasi">Prestasi</a>
              <a href="/home">Home</a>
 </div>
     </header>
     <h1>Data Siswa Berprestasi</h1>
-    
+    <!--Membuat sebuah tabel dengan kolom atas yaitu NISN,Nama,Kelas,Alamat,Prestasi,Tingkat dan Tanggal -->
     <table>
         <thead>
 
@@ -61,7 +61,7 @@ tr:hover{
             </tr>
         </thead>
         <tbody>
-
+    <!--Menambahkan isi dari tabel atau body dari tabel-->
             <tr>
             <td>1569427942</td>
             <td>Zhafirah Nur Shadrina</td>
@@ -100,6 +100,7 @@ tr:hover{
             </tr>
         </tbody>
     </table>
+    <!--Membuat sebuah tombol link yang akan mengarahkan ke halaman pengisian formulir prestasi apabila di klik-->
     <a href="/tambahprestasi">Tambah Prestasi</a>
 </body>
 </html>
