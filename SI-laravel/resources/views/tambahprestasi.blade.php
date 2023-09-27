@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Tambah Data Prestasi</title>
 <style>
-
 .navbar a {
     float:right;
     font-size:1rem;
@@ -39,6 +38,7 @@ border-radius: 4px;
 box-sizing: border-box;
 font-size: 14px;
 }
+<!--Kode diatas merupakan kode yang mengatur style tampilan pada halaman tambah prestasi-->
 </style>
 </head>
 <body>
@@ -46,15 +46,16 @@ font-size: 14px;
     <!--Bagian Navigasi-->
     <a href="#" class="logo">SI Prestasi</a>
     <div class="navbar"> 
-
+<!--Membuat sebuah navigasi yang berisi tombol Berita, Prestasi dan Home-->
              <a href="/berita">Berita</a>
              <a href="/dataprestasi">Prestasi</a>
              <a href="/home">Home</a>
 </div>
     </header>
+    <!--Membuat sebuah halaman untuk formulir data prestasi-->
     <h1>Tambah Data Prestasi</h1>
     
-    <!-- Formulir untuk menambah prestasi -->
+    <!-- Formulir untuk menambah data prestasi -->
     <form action="/tambah-mahasiswa" method="post">
         @csrf 
         
