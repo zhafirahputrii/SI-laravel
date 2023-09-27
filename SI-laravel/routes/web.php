@@ -17,15 +17,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
+<!--Merupakan Route untuk menampilkan halaman home.blade.php-->
 Route::get('/home', function () {
     return view('home');
 });
 
+<!--Merupakan Route untuk menampilkan halaman dataprestasi.blade.php-->
 Route::get('/dataprestasi', function () {
     return view('dataprestasi');
 });
 
+<!--Merupakan Route untuk menampilkan halaman tambahdataprestasi.blade.php-->
 Route::get('/tambahprestasi', function () {
     return view('tambahprestasi');
 });
